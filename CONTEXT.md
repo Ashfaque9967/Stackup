@@ -23,19 +23,20 @@ A full-stack web app for self-taught developers to track their learning journey,
 [ ] Public launch
 
 ## What we built last session
-- Nothing yet — starting fresh
+- PostgreSQL install kiya Windows pe
+- Stackup database banaya
+- 6 tables banaye: users, skills, daily_logs, 
+  projects, dsa_topics, job_apps
+- Foreign keys se sab tables users se connected
 
 ## Current feature in progress
-- Project setup + folder structure
-
-## Known bugs / blockers
-- None
+- Backend setup — Node + Express + PostgreSQL connection
 
 ## Next steps
-1. Initialize React + Vite project
-2. Initialize Node + Express backend
-3. Connect PostgreSQL
-4. Build auth system
+1. Folder structure banana — client + server
+2. Express server setup
+3. PostgreSQL ko Node se connect karna (pg library)
+4. Pehli API banana — POST /auth/register
 
 ## Important decisions made
 - Public app from day 1
